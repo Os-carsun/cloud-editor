@@ -1,0 +1,27 @@
+{
+  "name": "cloud-editor",
+  "version": "0.0.1",
+  "description": "A light weight file editor with a web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "editor",
+    "cloud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutingzhao1991/cloud-editor.git"
+  },
+  "bin": {
+    "cloud-editor": "./bin/editor.js"
+  },
+  "author": "Tingzhao Yu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "commander": "^2.6.0",
+    "express": "^4.12.1"
+  }
+}
